@@ -1,0 +1,162 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    padding: 15px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f1c40f !important; /* Yellow hover effect */
+  }
+  
+  /* Logout Button */
+  .btn-danger a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Container and Dashboard Styles */
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  /* Marquee Style */
+  marquee {
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 8px;
+  }
+  
+  /* Table Styles */
+  .tableFixHead {
+    overflow-y: auto;
+    max-height: 400px;
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table thead {
+    background: linear-gradient(135deg, #34495e, #2c3e50);
+    color: white;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  /* Button Styles */
+  .btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-info {
+    background: #2980b9;
+    color: white;
+  }
+  
+  .btn-info:hover {
+    background: #1f618d;
+  }
+  
+  .btn-danger {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background: #c0392b;
+  }
+  
+  .btn-success {
+    background: #27ae60;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background: #1e8449;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .navbar-brand {
+      font-size: 20px;
+    }
+  
+    .table thead {
+      font-size: 14px;
+    }
+  
+    th, td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .btn {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  }
+  

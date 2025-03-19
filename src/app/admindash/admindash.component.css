@@ -1,0 +1,116 @@
+/* 🌟 Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌟 Navbar Styling */
+.navbar {
+    padding: 12px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 20px; /* Adjusted font size */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 15px;
+    padding: 8px 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8 !important;
+    font-weight: bold;
+}
+
+/* 🌟 Dashboard Container */
+.container {
+    width: 90%;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left */
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 🌟 Marquee Styling */
+marquee {
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* 🌟 Table Styling */
+.tableFixHead {
+    overflow-y: auto;
+    height: 400px; /* Scrollable table if too many patients */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+.table thead {
+    background: #17a2b8;
+    color: white;
+}
+
+.table th {
+    padding: 12px;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 🌟 Delete Button */
+.btn-danger {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* 🌟 Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .tableFixHead {
+        height: auto;
+    }
+
+    marquee {
+        font-size: 16px;
+    }
+}

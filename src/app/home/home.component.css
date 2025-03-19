@@ -1,0 +1,11 @@
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+} 
+
+.custom-navbar {
+    background-color: #cfe8d5; /* Light pista green */
+    box-shadow: 0 2px 5px ;; /* Optional shadow */
+    padding: 10px 20px;
+}

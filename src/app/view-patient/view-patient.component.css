@@ -1,0 +1,101 @@
+/* 🌟 Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌟 Navbar Styling */
+.navbar {
+    padding: 12px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 20px; /* Adjusted font size */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 15px; /* Slightly smaller */
+    padding: 8px 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8 !important;
+    font-weight: bold;
+}
+
+/* 🌟 Patient Info Container */
+.container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    text-align: left; /* Align text to the left */
+}
+
+/* 🌟 Patient Details */
+.container label {
+    font-size: 15px; /* Reduced font */
+    font-weight: 500;
+    display: block;
+    margin-bottom: 6px;
+    color: #111010;
+}
+
+.container b {
+    color: #1862ab;
+    font-size: 16px; /* Slightly smaller */
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+/* 🌟 Button Styling */
+.btn {
+    display: inline-block;
+    padding: 8px 16px; /* Reduced padding */
+    margin-top: 15px;
+    font-size: 15px; /* Adjusted font size */
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* 🌟 Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+}

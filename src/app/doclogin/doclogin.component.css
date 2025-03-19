@@ -1,0 +1,81 @@
+/* .card{ 
+    border: none; 
+    border-radius: 30px; 
+    width: 500px; 
+    padding: 40px; 
+    top: 40%; 
+    left: 30%; 
+    transform: translate (30%, -25%); 
+    background: rgb(158, 219, 219); 
+    justify-content: center; 
+    color: navy; 
+    justify-items: center; 
+    box-shadow: 10px 10px 10px rgb(120, 120, 120);
+}
+.container{
+    justify-content: center;
+    display: flex;
+} */
+
+/* Soft pastel card with a modern design */
+.card { 
+    border: 2px solid rgba(255, 182, 193, 0.6); /* Soft pink border */
+    border-radius: 15px; 
+    width: 400px; 
+    padding: 30px; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background: rgba(255, 250, 240, 0.95); /* Light peach background */
+    color: #556b2f; /* Muted green text */
+    text-align: center; 
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3); /* Soft peach glow */
+    transition: all 0.3s ease-in-out; 
+}
+
+/* Hover effect for the card */
+.card:hover {
+    transform: translate(-50%, -50%) scale(1.04); 
+    box-shadow: 0 6px 15px rgba(255, 182, 193, 0.5), 0 6px 15px rgba(152, 251, 152, 0.4); /* Subtle peach-green glow */
+}
+
+/* Centering the card container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    background: linear-gradient(135deg, #fff5e1, #d4edda); /* Soft peach-to-mint gradient */
+}
+
+/* Heading and paragraph styles */
+.card h1, .card p {
+    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(85, 107, 47, 0.2); /* Faint green glow */
+}
+
+/* Soft pastel button */
+.card button {
+    background: transparent;
+    color: #556b2f;
+    border: 2px solid #556b2f;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(85, 107, 47, 0.3);
+}
+
+/* Button hover effect */
+.card button:hover {
+    background: rgba(85, 107, 47, 0.2); /* Soft green tint */
+    color: black;
+    border: 2px solid white;
+    box-shadow: 0 0 15px rgba(85, 107, 47, 0.5);
+}

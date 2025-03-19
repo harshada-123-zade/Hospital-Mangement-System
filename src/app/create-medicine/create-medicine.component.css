@@ -1,0 +1,97 @@
+/* 🌟 Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌟 Navbar Styling */
+.navbar {
+    padding: 12px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 15px;
+    padding: 8px 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8 !important;
+    font-weight: bold;
+}
+
+/* 🌟 Form Container */
+.container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌟 Form Header */
+h2.text-center {
+    font-size: 22px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 🌟 Form Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+}
+
+.form-control {
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #17a2b8;
+    box-shadow: 0px 0px 8px rgba(23, 162, 184, 0.3);
+}
+
+/* 🌟 Submit Button */
+.btn-success {
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+}
+
+.btn-success:hover {
+    background-color: #28a745;
+    transform: scale(1.03);
+}
+
+/* 🌟 Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}

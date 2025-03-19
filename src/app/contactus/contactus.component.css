@@ -1,0 +1,69 @@
+/* .container{ 
+    border: none; 
+    border-radius: 30px; 
+    width: 600px; 
+    padding: 40px; 
+    margin-top: 5%;
+    top: 40%; 
+    left: 30%; 
+    transform: translate (30%, -25%); 
+    background: rgb(158, 219, 219); 
+    justify-content: center; 
+    color: navy; 
+    justify-items: center; 
+    box-shadow: 10px 10px 10px rgb(120, 120, 120);} */
+
+    /* Colorful Gradient Container */
+.container { 
+    border: none; 
+    border-radius: 25px; 
+    width: 550px; 
+    padding: 40px; 
+    margin: 5% auto; /* Centers the container */
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4); /* Soft pink-peach gradient */
+    color: #2c3e50; /* Dark muted blue text for contrast */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.container:hover {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3); /* Brighter gradient */
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15); /* Increased shadow */
+    transform: scale(1.03); /* Slight zoom effect */
+}
+
+/* Heading styling */
+.container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Soft pastel button */
+.container button {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3); /* Soft pink-red gradient */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(255, 94, 98, 0.3);
+}
+
+/* Button hover effect */
+.container button:hover {
+    background: linear-gradient(135deg, #ff0844, #ffb199); /* Deeper pink-red gradient */
+    box-shadow: 0 10px 20px rgba(255, 94, 98, 0.4);
+    transform: scale(1.05);
+}
